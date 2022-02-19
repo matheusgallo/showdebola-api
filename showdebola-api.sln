@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.webapi", "showdebola-api.webapi\showdebola-api.webapi.csproj", "{059A81E9-BD2F-4FEA-AE0F-FC23FA15197E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.entity", "showdebola-api.entity\showdebola-api.entity.csproj", "{5A7B9A01-B72D-4B91-8E63-179CF5E42EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.service", "showdebola-api.service\showdebola-api.service.csproj", "{A5E45CCF-4BB8-4CB9-91BC-1D3BEA884F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.repository", "showdebola-api.repository\showdebola-api.repository.csproj", "{0E169513-647B-4BC9-8384-89549B8F5A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.infrastructure", "showdebola-api.infrastructure\showdebola-api.infrastructure.csproj", "{902E0BED-FBDB-484A-BE08-2813CBEA0AD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showdebola-api.unittest", "showdebola-api.unittest\showdebola-api.unittest.csproj", "{04BD4021-5709-4A0D-BE02-4B5C77EC865A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{059A81E9-BD2F-4FEA-AE0F-FC23FA15197E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059A81E9-BD2F-4FEA-AE0F-FC23FA15197E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059A81E9-BD2F-4FEA-AE0F-FC23FA15197E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059A81E9-BD2F-4FEA-AE0F-FC23FA15197E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7B9A01-B72D-4B91-8E63-179CF5E42EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7B9A01-B72D-4B91-8E63-179CF5E42EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7B9A01-B72D-4B91-8E63-179CF5E42EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7B9A01-B72D-4B91-8E63-179CF5E42EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E45CCF-4BB8-4CB9-91BC-1D3BEA884F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E45CCF-4BB8-4CB9-91BC-1D3BEA884F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E45CCF-4BB8-4CB9-91BC-1D3BEA884F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E45CCF-4BB8-4CB9-91BC-1D3BEA884F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E169513-647B-4BC9-8384-89549B8F5A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E169513-647B-4BC9-8384-89549B8F5A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E169513-647B-4BC9-8384-89549B8F5A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E169513-647B-4BC9-8384-89549B8F5A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902E0BED-FBDB-484A-BE08-2813CBEA0AD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902E0BED-FBDB-484A-BE08-2813CBEA0AD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902E0BED-FBDB-484A-BE08-2813CBEA0AD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902E0BED-FBDB-484A-BE08-2813CBEA0AD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04BD4021-5709-4A0D-BE02-4B5C77EC865A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04BD4021-5709-4A0D-BE02-4B5C77EC865A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04BD4021-5709-4A0D-BE02-4B5C77EC865A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04BD4021-5709-4A0D-BE02-4B5C77EC865A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35D93348-A3C3-491B-83F8-04C6F3388D5C}
+	EndGlobalSection
+EndGlobal

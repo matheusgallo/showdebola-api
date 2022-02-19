@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>showdebola_api.service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\showdebola-api.entity\showdebola-api.entity.csproj" />
+    <ProjectReference Include="..\showdebola-api.infrastructure\showdebola-api.infrastructure.csproj" />
+    <ProjectReference Include="..\showdebola-api.repository\showdebola-api.repository.csproj" />
+  </ItemGroup>
+
+</Project>
